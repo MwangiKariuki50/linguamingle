@@ -1,0 +1,138 @@
+.nametitle{
+  justify-content: left;
+  color: yellow;
+  font-size: 75%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 10px; 
+  background-color: #58CC02;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+  
+.nav {
+  display: flex;
+  align-items: center;
+}
+  
+.nav-item {
+  margin: 0 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+
+.container {
+  margin-left: 50%;
+  margin-top: 15rem;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  height: 20rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to right, #009b3a, #fcd116);
+  /* This creates the flag-inspired background */
+  overflow: hidden;
+}
+
+.logo {
+  max-width: 100px;
+  height: 100px;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+}
+
+.input {
+  width: 100%;
+  height: 20px;
+  margin: 10px -10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  background: white;
+}
+
+
+.form .button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #002776;
+  /* This is the color of the circle in the flag */
+  cursor: pointer;
+}
+
+.form .button-el {
+  width: 30%;
+  height: 30px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #002776;
+  /* This is the color of the circle in the flag */
+  cursor: pointer;
+}
+
+.form .button-el a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.footer {
+  margin-bottom: 0px;
+  height: 97px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.footer-item {
+  margin: 0 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-item:hover {
+  text-decoration: none;
+ 
+}
